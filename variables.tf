@@ -8,13 +8,3 @@ variable "instance_type" {
   description = "EC2 Instance Type - Instance Sizing"
   type        = string
 }
-
-variable "AWS_ACCESS_KEY_ID" {
-  description = "Region in which AWS Resources to be created"
-  type        = string
-}
-
-variable "AWS_SECRET_ACCESS_KEY" {
-  description = "EC2 Instance Type - Instance Sizing"
-  type        = string
-}
