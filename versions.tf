@@ -11,9 +11,7 @@
 
 # Provider Block
 provider "aws" {
-  region     = var.aws_region
-  access_key = "AKIAWOEXQAWO5W3K2LVC"
-  secret_key = "dhzY4W1pfl/WyzAqB3tPskse991/KNgo3UQ4fwbZ"
+  region = var.aws_region
 }
 /*
 Note-1:  AWS Credentials Profile (profile = "default") configured on your local desktop terminal  
